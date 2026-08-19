@@ -12,17 +12,8 @@ Passing entire source and destination schemas together creates attention dispers
 
 ## 2. Architecture & Pipeline Breakdown
 
-```
-[Ingest Source] ──► [Ingest Destination] ──► [Discover Schemas (Independent)]
-                                                       │
-[Map Fields (Table-by-Table)] ◄── [Map Tables] ◄── [User Input] ◄── [Ask Questions]
-           │
-     (Confidence Gate)
-      ├── ≥ 80% ──► Next Table / Generate Output
-      └── < 80% ──► [Human Review / Refine] ──► Next Table
-                                                       │
-                                            [Generate Output JSON]
-```
+![Workflow_Dhanya_Assignment.png](https://github.com/dhanyavasantha/SchemaFieldMapper/blob/main/Workflow_Dhanya_Assignment.png?raw=true)
+
 
 ### The 7 Stages:
 1. **Schema Ingestion (`ingest_source`, `ingest_destination`)**: Parses raw JSON schemas, registers table and collection names into state.
