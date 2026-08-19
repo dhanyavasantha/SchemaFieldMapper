@@ -21,6 +21,4 @@ build/
 htmlcov/
 .coverage
 
-# Output
-output/
-*.png
+
