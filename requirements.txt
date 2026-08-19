@@ -1,0 +1,8 @@
+# ── Core Pipeline ─────────────────────────────────────────────
+langchain-core
+langchain-openai
+langgraph
+python-dotenv
+
+# ── Testing ───────────────────────────────────────────────────
+pytest
