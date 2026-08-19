@@ -19,10 +19,7 @@ The pipeline breaks the work into multiple autonomous steps ingesting each schem
 
 ## System Workflow
 
-```
-ingest_source → ingest_destination → discover_schemas → ask_questions →
-user_input → map_tables → map_fields ↔ human_review → generate_output
-```
+![System Workflow]([Workflow_Dhanya_Assignment.png](https://github.com/dhanyavasantha/SchemaFieldMapper/blob/main/Workflow_Dhanya_Assignment.png?raw=true))
 
 ### Pipeline Steps
 
